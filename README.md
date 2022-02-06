@@ -10,6 +10,8 @@ Założenia:
 6.	Jeśli zostanie podana ocena 3 lub mniejsza, wyskakuje komunikat o niskiej ocenie.
 7.	Po zakończeniu dodawania ocen, wyświetlają się podsumowania statystyczne (ocena minimalna, maksymalna i średnia)
 8.	Jeśli zdecydujemy się na wybór zapisywania ocen w pliku, będzie on nosił nazwę po tytule wpisanej książki np „MORT.txt”. Dodatkowo, utworzy się plik „audit.txt”, do którego będą zapisywane oceny wszystkich ksiażek, wraz z datą nadania ocen.
+
+
 Działanie programu:
 1.	Wybrór metody zapisu ocen: 0 w pamięci, 1 – do pliku
 2.	Wpisanie tytułu książki (nie jest case sensitive)

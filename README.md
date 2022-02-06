@@ -1,6 +1,8 @@
 # Wyzwanie21Dni
 
 Prosta aplikacja konsolowa, do wpisywania ocen książek.
+
+
 Założenia:
 1.	Oceny można zapisywać w pamięci programu lub w osobnym pliku txt.
 2.	Tytuł książki nie jest case sensitive

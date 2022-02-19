@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 namespace ChallengeApp.Models
 {
@@ -57,15 +56,20 @@ namespace ChallengeApp.Models
         {
             double parsedGrade;
 
-            parsedGrade = double.Parse(grade);
-
-            if (parsedGrade < 1 || parsedGrade > 6)
+            if (double.TryParse(grade, out parsedGrade))
             {
-                throw new ArgumentException();
+                if (parsedGrade < 1 || parsedGrade > 6)
+                {
+                    throw new ArgumentException();
+                }
+                else
+                {
+                    return parsedGrade;
+                }
             }
             else
             {
-                return parsedGrade;
+                throw new FormatException();
             }
         }
     }

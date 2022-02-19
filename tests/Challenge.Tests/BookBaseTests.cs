@@ -1,6 +1,5 @@
 ﻿using ChallengeApp.Models;
 using System;
-using System.Collections.Generic;
 using Xunit;
 
 namespace Challenge.Tests
@@ -34,12 +33,11 @@ namespace Challenge.Tests
 
         public override void AddGrade(string grade)
         {
-            throw new NotImplementedException();
         }
 
         public override Statistics GetStatistics()
         {
-            throw new NotImplementedException();
+            return new Statistics();
         }
     }
 }

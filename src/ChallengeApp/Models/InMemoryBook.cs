@@ -43,21 +43,5 @@ namespace ChallengeApp.Models
 
             return result;
         }
-
-        private double checkIfStringGradeIsWithinBonds(string grade)
-        {
-            double parsedGrade;
-
-            parsedGrade = double.Parse(grade);
-
-            if (parsedGrade < 1 || parsedGrade > 6)
-            {
-                throw new ArgumentException();
-            }
-            else
-            {
-                return parsedGrade;
-            }
-        }
     }
 }

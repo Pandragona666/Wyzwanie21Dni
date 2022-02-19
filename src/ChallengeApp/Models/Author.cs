@@ -22,13 +22,6 @@ namespace ChallengeApp.Models
 
         public bool containsAnyDigit(string checkedString){
             return checkedString.Any(c => char.IsDigit(c));
-
-            // foreach(char c in checkedString){
-            //     if(char.IsDigit(c)){
-            //         return true;
-            //     }
-            // }
-            // return false;
         }
     }
 }
